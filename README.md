@@ -129,5 +129,7 @@ print(f"\nR-squared: {r_squared:.4f}")
 
 ![2024-09-10 (2)](https://github.com/user-attachments/assets/07bc84fb-7a17-4a49-bc83-2bed2766bc97)
 
+![2024-09-10 (3)](https://github.com/user-attachments/assets/998e0a56-327f-4fe9-ada5-bc63d22c379d)
+
 ## Result:
 Thus the program to implement the linear regression using gradient descent is written and verified using python programming.
