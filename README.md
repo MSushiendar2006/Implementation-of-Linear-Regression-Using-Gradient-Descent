@@ -43,7 +43,7 @@ def linear_regression(X1,y,learning_rate=0.01,num_iters=1000):
         errors=(predictions-y).reshape(-1,1)
         theta -=learning_rate*(1/len(X1))*X.T.dot(errors)
     return theta
-data=pd.read_csv('50_Startups.csv');
+data=pd.read_csv('/content/50_Startups.csv');
 print(data.head())
 X=(data.iloc[1:,:-2].values)
 print(X)
@@ -65,11 +65,24 @@ print(f"Predicted value:{pre}")
 ```
 
 ## Output:
-![2024-09-10](https://github.com/user-attachments/assets/56aed327-aaff-423d-bc7f-be8e74f1db1b)
+![Screenshot 2024-10-29 123952](https://github.com/user-attachments/assets/1c3e7d22-8727-4197-bf3c-69d9659aa57c)
 
-![2024-09-10 (2)](https://github.com/user-attachments/assets/07bc84fb-7a17-4a49-bc83-2bed2766bc97)
+![image](https://github.com/user-attachments/assets/5a533466-d604-4519-9e46-385c4cc531d3)
 
-![2024-09-10 (3)](https://github.com/user-attachments/assets/998e0a56-327f-4fe9-ada5-bc63d22c379d)
+![image](https://github.com/user-attachments/assets/4aadde6c-dfd8-4b39-8ddf-96cb5c1e6b95)
+
+![Screenshot 2024-10-29 124252](https://github.com/user-attachments/assets/ae0b42b6-1174-47b1-aea7-7f497e5b1c03)
+
+![image](https://github.com/user-attachments/assets/3a6e3f76-114f-46e7-a2ab-2b726f384af9)
+
+![image](https://github.com/user-attachments/assets/1a75fd48-0537-4597-8e7b-7a37f5298f59)
+
+![image](https://github.com/user-attachments/assets/56854b2a-3bc6-4688-a645-facd0d1f4877)
+
+![image](https://github.com/user-attachments/assets/4b06bf08-6852-4360-a95e-2b57a3ba842f)
+
+![image](https://github.com/user-attachments/assets/32b9051f-f53b-424a-a294-1cfbe6ac9aa7)
+
 
 ## Result:
 Thus the program to implement the linear regression using gradient descent is written and verified using python programming.
